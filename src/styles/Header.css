@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+  
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  nav input[type="text"] {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px; /* Espacement entre les éléments de la liste */
+}
+
+nav li {
+    transition: background-color 0.3s;
+}
+
+nav li:hover {
+    background-color: rgba(0,0,0,0.1); /* Coloration au survol */
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Couleur du texte du lien */
+    padding: 5px 15px; /* Espacement interne pour un meilleur toucher/clic */
+    border-radius: 4px; /* Coins arrondis pour les liens */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    color: white; /* Couleur du texte au survol */
+    background-color: #007BFF; /* Couleur d'arrière-plan au survol */
+}
+header {
+    background-color: #4CAF50; /* Cette couleur est un vert aléatoire, remplacez-la par votre choix */
+    padding: 15px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Une ombre légère pour un effet de profondeur */
+}
+

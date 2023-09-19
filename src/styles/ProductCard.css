@@ -1,0 +1,51 @@
+.product-card {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Limite la largeur de la carte produit */
+  transition: transform .2s; /* Animation lors du survol */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Zoom lors du survol */
+}
+
+.product-card img {
+  max-width: 100%; /* Assure que l'image ne dépasse pas la largeur de la carte */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-card h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.product-card p {
+  color: #666;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  flex: 0 0 calc(33.33% - 10px); /* Cette règle dit que chaque carte prendra 1/3 (33.33%) de l'espace total moins 10px pour un peu d'espacement */
+  margin-bottom: 20px;
+}
+.product-card button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}

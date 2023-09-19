@@ -1,0 +1,13 @@
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+    position: relative; /* Pour le positionnement absolu du footer */
+    background-color: #f7f7f7;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
